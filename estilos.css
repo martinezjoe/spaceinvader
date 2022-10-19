@@ -1,0 +1,85 @@
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(./imagenes/tierra.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+.resultados {
+    color: #fff;
+    text-shadow: 0 0 10px black;
+
+}
+
+.grid {
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+
+}
+
+.invader {
+    background-image: url(./imagenes/ovni.png);
+    background-size: cover;
+}
+
+.shooter {
+    background-image: url(./imagenes/nave-espacial.png);
+    background-size: cover;
+}
+
+.laser {
+    background-image: url(./imagenes/laser.png);
+    background-size: cover;
+}
+
+.boom {
+    background-image: url(./imagenes/llamas.png);
+    background-size: cover;
+}
+
+.subtitulo {
+
+    color: #fff;
+    text-shadow: 0 0 10px black;
+}
+
+.controles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    text-shadow: 0 0 10px black;
+}
+
+.controles__img {
+    width: 40px;
+}
+
+.figure {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+
+}
+
+.figure__img {
+    width: 100%;
+}
+
+.figure__img--display {
+    display: none;
+}
